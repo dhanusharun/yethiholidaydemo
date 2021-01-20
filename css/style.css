@@ -1,0 +1,123 @@
+html {height:100%;}
+
+body {height:100%; margin:0; padding:0;overflow-x:hidden;}
+
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+
+#content {position:relative; z-index:1;}
+
+#logo{position: relative;z-index:1;}
+
+#logo img{
+    position: relative;
+    height: 100px;
+    width: auto;
+    top: 10px;
+    left: 80px;
+}
+
+#content{
+    
+    left: 220px;
+    top: 130px;
+    width: 50%;
+}
+#content .main-paragraph h2{
+    font-size: 70px;
+}
+#content .main-paragraph p{
+    font-size:30px;
+}
+.sub-main button{
+    position: relative;
+    left: 600px;
+    top: 40px;
+    font-size: 20px;
+}
+.heading{
+    font-size: 40px;
+    position: relative;
+    left: 500px;
+    top: -70px;
+}
+.form-group label{
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+}
+.form-group{
+    padding-bottom: 10px;
+}
+#login-content{
+    position: fixed;
+    top : 160px;
+    left: 700px;
+    width: 30%;
+    border: darkgray 1px solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+#searchcontent{
+    position: relative;
+    margin-left:220px;
+    margin-top: 200px;
+    border: grey 1px solid;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px 10px 50px 20px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    /* width: 100%; /* Full width */
+    /* height: 100%; Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: absolute;
+    background-color: #fefefe;
+    margin: 3% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 10px; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #mycontent{
+    position: relative;
+    left: 300px;
+    width: 50%;
+  }
+  #uploadform{
+      margin-top: 80px;
+      margin-left: 180px;
+      width: 60%;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+  }
