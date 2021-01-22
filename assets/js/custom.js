@@ -812,13 +812,13 @@ function initMap() {
                         o = 70;
                     void 0 !== a && (o = a.top), t > o ? (n.addClass("header-stickytop"), e(".sections").addClass("body-pt")) : (n.removeClass("header-stickytop"), e("body").css("paddingTop", 0));
                 });
-            var n = e(".header-top .header-container .menu-icon .text-menu");
-            if (!(n.length <= 0)) {
-                var a = n.find(".text-button"),
-                    s = n.find(".text-open"),
-                    r = n.find(".text-close");
-                    dsnGrid.convertTextWord(a,a,!0),dsnGrid.convertTextWord(s,s, !0), dsnGrid.convertTextWord(r, r, !0);
-            }
+            // var n = e(".header-top .header-container .menu-icon .text-menu");
+            // if (!(n.length <= 0)) {
+            //     var a = n.find(".text-button"),
+            //         s = n.find(".text-open"),
+            //         r = n.find(".text-close");
+            //         dsnGrid.convertTextWord(a,a,!0),dsnGrid.convertTextWord(s,s, !0), dsnGrid.convertTextWord(r, r, !0);
+            // }
         })();
     var r = a(),
         l = (function () {
