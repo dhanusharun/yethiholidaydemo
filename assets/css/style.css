@@ -1,47 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------
-
-  Template Name: Droow - Ajax Portfolio Showcase HTML Template
-  Template URI: http://theme.dsngrid.com/droow
-  Description: Droow Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
-  Version: 1.0.0
-
--------------------------------------------------------------*/
-/*-----------------------------------------------------------
-
-    1.  Variables
-    2.  Mixins
-      - Mixins Master
-      - Utilities
-    3.  Normalize
-    4.  Helpers
-    5. Typography
-      - Copy
-	  - Headings
-	6. Core
-    7. Navigation
-      - Links
-      - Menus
-	  - Next & Previous
-    8. Content
-      - pages
-      - Comments
-      - Archives
-      - Footer
-    9.Forms
-      - Button
-      - Fields
-    10.Blocks
-    11.Media
-      - captions
-    12.Version Light
-
--------------------------------------------------------------*/
-/* -------------------------------------------------------
-                     mixins
--------------------------------------------------------- */
 .post-full-content.single-post > *:not(.gallery),
 .post-full-content.single-post > *:not(.wp-block-quote) > p,
 .widget_text.single-post > *:not(.gallery),
@@ -1407,7 +1364,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 h3 {
@@ -5388,7 +5345,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .slider-project .swiper-slide {
-  width: 80%;
+  width: 70%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8557,7 +8514,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .fullscreen-slider .descover-holder .letter {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -12562,5 +12519,3 @@ footer .copyright-social ul li:last-child {
 .v-light .caption {
   color: #000;
 }
-
-/*# sourceMappingURL=style.css.map */
