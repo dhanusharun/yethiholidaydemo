@@ -1448,7 +1448,9 @@ a:hover {
 a:focus {
   text-decoration: underline;
 }
-
+.logoimg{
+  position:relative;
+}
 /* -------------------------------------------------------
                    Core
 -------------------------------------------------------- */
@@ -3092,7 +3094,7 @@ body.hamburger-menu .header-top {
 }
 
 .header-top {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -12259,6 +12261,10 @@ footer .copyright-social {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  footer .copyright-social{
+    position: relative;
+    width: 200px;
   }
 }
 
