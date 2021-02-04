@@ -3092,7 +3092,24 @@ body.hamburger-menu .header-top {
   float:right;
   right: 220px;
   top:10px;
+}
 
+@media only screen and (max-width: 567px) {
+  .maldivestitle{
+    position:relative;
+    right:170px;
+  }
+  .maldivestitle h2{
+    font-size:12px;
+  }
+  .maldivestitle .material-icons i{
+    font-size:5px;
+    
+  }
+  #location{
+    position:relative;
+    font-size:10px;
+  }
 }
 
 .dsn-nav-bar {
