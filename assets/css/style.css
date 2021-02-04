@@ -3087,6 +3087,14 @@ body.hamburger-menu .header-top {
 /* -------------------------------------------------------
                    Navbar Overlay
 -------------------------------------------------------- */
+.maldivestitle{
+  position:relative;
+  float:right;
+  right: 220px;
+  top:10px;
+
+}
+
 .dsn-nav-bar {
   position: absolute;
   z-index: 999;
